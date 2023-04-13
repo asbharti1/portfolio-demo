@@ -1,0 +1,90 @@
+.header {
+  overflow: hidden;
+  background-color: #0226d7;
+  padding:  1em;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: dodgerblue;
+  color: rgb(72, 43, 8);
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: rgb(145, 11, 11);
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{  
+  margin: 1em; 
+}
+.clickWrapper {
+  display: flex;
+  margin: 3em;
+  justify-content: center;
+}
+.click {
+  position: relative;  
+  text-align: center;   
+}
+.click:hover {
+  transform: scale(3);
+  color: #0226d7;
+}
+.resume-container {
+  position: relative;  
+  text-align: left; 
+  border-top: 1px solid #a6a6a7;
+  margin: 2em;
+}
+
+.contact {
+  list-style: none;
+  line-height: .5em;
+}
+
+.aboutme{
+  margin: 2em;
+  text-align: justify;
+}
